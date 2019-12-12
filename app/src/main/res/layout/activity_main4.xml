@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/candidates_list"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="357dp"
+        android:layout_height="659dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/party1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/bjp"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="150dp"
+                android:layout_height="25dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="75dp"
+                android:layout_height="37dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/party2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/congress"
+                android:gravity="center"
+                android:textSize="18sp" />
+            <Space
+                android:layout_width="150dp"
+                android:layout_height="25dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="38dp"
+                android:layout_height="37dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/party3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jds"
+                android:gravity="center"
+                android:textSize="18sp" />
+            <Space
+                android:layout_width="150dp"
+                android:layout_height="25dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="38dp"
+                android:layout_height="37dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/party4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admk"
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <Space
+                android:layout_width="150dp"
+                android:layout_height="25dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="38dp"
+                android:layout_height="37dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/party5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nota"
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <Space
+                android:layout_width="150dp"
+                android:layout_height="25dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="38dp"
+                android:layout_height="37dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
